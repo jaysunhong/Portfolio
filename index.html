@@ -10,74 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Jason Hong's Portfolio</title>
 </head>
-<body>
-    <style>
-        body {
-            font-family: "Bebas Neue";
-            font-size: 16px;
-            /* color: white;    
-            background-color: rgb(53, 53, 53); */
-        }
-        h1 {
-            text-align: center;
-            margin: 0;
-            margin-top: 4px;
-            margin-left: 14px;
-            font-size: 31px;
-        }
-        h2 {
-            text-align: center;
-            margin: 0;
-            margin-bottom: 3px;
-            font-size: 24px;
-            border-bottom: solid;
-            border-width: thin;
-        }
-        #profpic {
-            width: 260px;
-            height: 340px;
-            margin-right: auto;
-            margin-left: auto;
-            margin-bottom: 10px;
-            border-radius: 8%;
-            display: block;
-        }
-        .centerText {
-            text-align: center;
-            font-size: 25px;
-            font-family: "Megan June";
-        }
-        .wrapper {
-            margin-top: 10px;
-        }
-        .fixdate {
-            text-align: right;
-        }
-        .italic {
-            font-style: italic;
-        }
-        .resumeDescription {
-            font-family: "Megan June";
-            /* font-weight: bold; */
-            line-height: 110%;
-            margin-left: 16px;
-            margin-bottom: 3px;
-            width: 97%;
-        }
-        #techskillsDescription {
-            font-family: "Megan June";
-        }
-        #techskillTitle {
-            font-size: 17px;
-        }
-        section {
-            margin-bottom: 3px;
-        }
-    </style>
 
+<body>
 <div class="container">
                 
-    
     <ul class="justify-content-end nav nav-tabs" id="myTab" role="tablist">
         <h1 class="mr-auto">Jason Hong</h1>
 
@@ -86,213 +22,260 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link profile" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Projects</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link contact" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+          <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Resume</a>
         </li>
     </ul>
 
     <div class="tab-content" id="myTabContent">
+
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <div class="container">
-                <div class="wrapper">
-
-                    <div class="row">
-                        <div class="col-12 centerText">
-                            <img id='profpic' src="./assets/images/me.jpeg">
-                            Software Developer<br>
-                            jaysunhong@gmail.com
-                        </div>
+                <div class="row">
+                    <div class="col-12 centerText">
+                        <img id='profpic' src="./assets/images/me.jpeg">
+                        Web Developer<br>
+                        jaysunhong@gmail.com
                     </div>
-                    
-                        <!-- EXPERIENCE SECTION -->
-                        <section>
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2>Experience</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    Joseph S. Ro, CPA - <a class='italic'>Accountant</a>
-                                </div>
-                                <div class="col-3 fixdate">
-                                    July 2017 - October 2018
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    <li>
-                                        Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
-                                    </li>
-                                    <li>
-                                        Coordinated monthly payroll functions for the office employees.
-                                    </li>
-                                    <li>
-                                        Provided exceptional customer service.
-                                    </li>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!-- PROJECTS SECTION -->
-                        <section>
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2>Projects</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    Pokemon Rock-Paper-Scissors (HTML, Bootstrap, jQuery, Firebase) - <a class='italic'>Fullstack Developer</a>
-                                </div>
-                                <div class="col-3 fixdate">
-                                    June 2018
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    <li>
-                                        Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
-                                    </li>
-                                    <li>
-                                        Coordinated monthly payroll functions for the office employees.
-                                    </li>
-                                    <li>
-                                        Provided exceptional customer service.
-                                    </li>
-                                </div>
-                            </div>
-                             <div class="row">
-                                <div class="col-9">
-                                    Rentployment (JavaScript, jQuery) - <a class='italic'>Backend Developer</a>
-                                </div>
-                                <div class="col-3 fixdate">
-                                    May 2018
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    <li>
-                                        Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
-                                    </li>
-                                    <li>
-                                        Coordinated monthly payroll functions for the office employees.
-                                    </li>
-                                    <li>
-                                        Provided exceptional customer service.
-                                    </li>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    Trivia Buddy (HTML, Bootstrap, jQuery, Firebase) - <a class='italic'>Fullstack Developer</a>
-                                </div>
-                                <div class="col-3 fixdate">
-                                    April 2018
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    <li>
-                                        Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
-                                    </li>
-                                    <li>
-                                        Coordinated monthly payroll functions for the office employees.
-                                    </li>
-                                    <li>
-                                        Provided exceptional customer service.
-                                    </li>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!-- EDUCATION SECTION -->
-                        <section>
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2>Education</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    University of California, Irvine - <a class='italic'>Coding Bootcamp</a>
-                                </div>
-                                <div class="col-3 fixdate">
-                                    April 2018 - October 2018
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    My name is Jason Hong and I am 25 years old. I graduated from Cal State Fullerton in Spring of 2017 with a bachelor's degree in Finance. After graduation, I landed a job as an accountant at a local CPA firm. I tried coding as a side-hobby and absolutely loved how rewarding it was. I have a passion for coding and would love to be able to make it my career one day. My interests are basketball, coding, cars, gaming, and music.
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    California State University, Fullerton
-                                </div>
-                                <div class="col-3 fixdate">
-                                    August 2014 - May 2017
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="resumeDescription" class="col-12">
-                                    <li>
-                                        Bachelor of Arts, Business Administration - Finance
-                                    </li>
-                                </div>
-                            </div>
-                        </section>
-
-                        <!-- TECHNICAL SKILL SECTION -->
-                        <section>
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2>Technical Skills</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-1" id='techskillTitle'>
-                                    Languages:
-                                </div>
-                                <div class="col-11" id='techskillsDescription'>
-                                    JavaScript, HTML, CSS
-                                </div>
-                            </div>
-                             <div class="row">
-                                <div class="col-1" id='techskillTitle'>
-                                    Tools:
-                                </div>
-                                <div class="col-11" id='techskillsDescription'>
-                                    jQuery, NodeJS, MomentJS, Firebase, AJAX, Axios, BootStrap, Git
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-1" id='techskillTitle'>
-                                    Others:
-                                </div>
-                                <div class="col-11" id='techskillsDescription'>
-                                    Object Oriented Programming, Data Structures
-                                </div>
-                            </div>
-                        </section>         
+                </div>        
             </div>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+
+        <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+            <div class="container">
+                <div class="row portfolioRow1">
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../GitHub/hw7/firebaseChallenge/index.html' target='_blank'>
+                                <img class='portfolioIcons' src='./assets/images/pokemon.png'>Pokemon Rock-Paper-Scissors
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../rentployment/index.html' target='_blank'>
+                                <img class='portfolioIcons' src='../rentployment/assets/images/logo.PNG'>Rentployment
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../GitHub/hw3/Hangman-Game/index.html' target='_blank'>
+                                <img class='portfolioIcons' src='../github/hw3/Hangman-Game/assets/images/hangmanicon.png'>Musical Hangman
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../GitHub/hw4/unit-4-game/index.html' target='_blank'>
+                                <img class='portfolioIcons' src='../github/hw4/unit-4-game/assets/images/algorithmersicon.png'>Algorithmers
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row portfolioRow2">
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../GitHub/hw5/TriviaGame/index.html' target='_blank'>
+                                <img class='portfolioIcons' src='../github/hw5/TriviaGame/assets/images/superheroicon.jpg'>Superhero Trivia
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-3">
+                        <button class='portfolioButtons'>
+                            <a href='../GitHub/hw6/Giphy/index.html' target='_blank'>
+                                <img class='portfolioIcons' id='giphylogo' src='../github/hw6/Giphy/assets/images/giphylogo.png'>Giphy
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="resume" role="tabpanel" aria-labelledby="resume-tab">
+            <div class="container">
+                <!-- EXPERIENCE SECTION -->
+                <section>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Experience</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            Joseph S. Ro, CPA - <a class='italic'>Accountant</a>
+                        </div>
+                        <div class="col-3 fixdate">
+                            July 2017 - October 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            <li>
+                                Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
+                            </li>
+                            <li>
+                                Coordinated monthly payroll functions for the office employees.
+                            </li>
+                            <li>
+                                Provided exceptional customer service.
+                            </li>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PROJECTS SECTION -->
+                <section>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            Pokemon Rock-Paper-Scissors (HTML, Bootstrap, jQuery, Firebase) - <a class='italic'>Fullstack Developer</a>
+                        </div>
+                        <div class="col-3 fixdate">
+                            June 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            <li>
+                                Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
+                            </li>
+                            <li>
+                                Coordinated monthly payroll functions for the office employees.
+                            </li>
+                            <li>
+                                Provided exceptional customer service.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            Rentployment (JavaScript, jQuery) - <a class='italic'>Backend Developer</a>
+                        </div>
+                        <div class="col-3 fixdate">
+                            May 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            <li>
+                                Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
+                            </li>
+                            <li>
+                                Coordinated monthly payroll functions for the office employees.
+                            </li>
+                            <li>
+                                Provided exceptional customer service.
+                            </li>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            Trivia Buddy (HTML, Bootstrap, jQuery, Firebase) - <a class='italic'>Fullstack Developer</a>
+                        </div>
+                        <div class="col-3 fixdate">
+                            April 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            <li>
+                                Prepared company accounts and tax returns for clients and maintained confidential client files up-to-date.
+                            </li>
+                            <li>
+                                Coordinated monthly payroll functions for the office employees.
+                            </li>
+                            <li>
+                                Provided exceptional customer service.
+                            </li>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- EDUCATION SECTION -->
+                <section>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Education</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            University of California, Irvine - <a class='italic'>Coding Bootcamp</a>
+                        </div>
+                        <div class="col-3 fixdate">
+                            April 2018 - October 2018
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            My name is Jason Hong and I am 25 years old. I graduated from Cal State Fullerton in Spring of 2017 with a bachelor's degree in Finance. After graduation, I landed a job as an accountant at a local CPA firm. I tried coding as a side-hobby and absolutely loved how rewarding it was. I have a passion for coding and would love to be able to make it my career one day. My interests are basketball, coding, cars, gaming, and music.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            California State University, Fullerton
+                        </div>
+                        <div class="col-3 fixdate">
+                            August 2014 - May 2017
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resumeDescription" class="col-12">
+                            <li>
+                                Bachelor of Arts, Business Administration - Finance
+                            </li>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- TECHNICAL SKILL SECTION -->
+                <section>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Technical Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1" id='techskillTitle'>
+                            Languages:
+                        </div>
+                        <div class="col-11" id='techskillsDescription'>
+                            JavaScript, HTML, CSS
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1" id='techskillTitle'>
+                            Tools:
+                        </div>
+                        <div class="col-11" id='techskillsDescription'>
+                            jQuery, NodeJS, MomentJS, Firebase, AJAX, Axios, BootStrap, Git
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1" id='techskillTitle'>
+                            Others:
+                        </div>
+                        <div class="col-11" id='techskillsDescription'>
+                            Object Oriented Programming, Data Structures
+                        </div>
+                    </div>
+                </section>         
+            </div>
+        </div>
     </div>
-      
 </div>
-    
 
-    <script>
-        $('.profile').on('click', function () {
-            $(this).attr('aria-selected', 'true');
-        })
-    </script>
-
-    <script src="./assets/javascript/script.js"></script>
+<script src="./assets/javascript/script.js"></script>
 </body>
 </html>

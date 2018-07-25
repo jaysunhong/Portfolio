@@ -1,0 +1,91 @@
+body {
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    /* color: white;    
+    background-color: rgb(53, 53, 53); */
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 14px;
+    font-size: 31px;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 24px;
+    border-bottom: solid;
+    border-width: thin;
+}
+#profpic {
+    width: 260px;
+    height: 340px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 8%;
+    display: block;
+}
+.centerText {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Megan June";
+}
+#home {
+    margin-top: 50px;
+}
+#portfolio {
+    margin-top: 50px;
+    text-align: center;
+}
+#resume {
+    margin-top: 50px;
+}
+.fixdate {
+    text-align: right;
+}
+.italic {
+    font-style: italic;
+}
+.resumeDescription {
+    font-family: "Megan June";
+    /* font-weight: bold; */
+    line-height: 110%;
+    margin-left: 16px;
+    margin-bottom: 3px;
+}
+#techskillsDescription {
+    font-family: "Megan June";
+}
+#techskillTitle {
+    font-size: 17px;
+}
+section {
+    margin-bottom: 3px;
+}
+
+/* PORTFOLIO TAB */
+.portfolioButtons {
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+.portfolioIcons {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+}
+.portfolioButtons:hover {
+    transform: scale(1.5);
+}
+.portfolioRow2 {
+    margin-top: 60px; 
+}
+#giphylogo {
+    border-radius: 5%;
+}
