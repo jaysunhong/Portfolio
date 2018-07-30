@@ -27,3 +27,4 @@ $('#portfolio-tab').on('click', function () {
     $('#resume-tab').attr('class', 'nav-link');
     $('#resume').attr('class', 'tab-pane fade');
 });
+
