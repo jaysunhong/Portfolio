@@ -12,7 +12,7 @@ $('#resume-tab').on('click', function () {
     var offset = 0;
 
     $('html, body').animate({
-        scrollTop: $("body").offset().top + offset
+        scrollTop: $(this).offset().top + offset
     });
 
     $(this).attr('class', 'nav-link active');
