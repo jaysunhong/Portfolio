@@ -1,3 +1,10 @@
+var localtime = moment().format('LT');
+
+if (localtime > "7:00 PM") {
+    $("body").css("background-color", "black")
+        .css("color", "white");
+}
+
 $('#home-tab').on('click', function () {
     $(this).attr('class', 'nav-link active');
     $('#home').attr('class', 'tab-pane fade show active');
