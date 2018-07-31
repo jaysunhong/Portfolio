@@ -11,7 +11,7 @@ $('#home-tab').on('click', function () {
 $('#resume-tab').on('click', function () {
     var offset = 0;
 
-    $('html, body').animate({
+    $('html').animate({
         scrollTop: $(this).offset().top + offset
     });
 
