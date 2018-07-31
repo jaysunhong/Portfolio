@@ -1,6 +1,6 @@
 var localtime = moment().format('LT');
 
-if (localtime > "7:00 PM") {
+if (localtime > "8:00 PM" && localtime < "7:00 AM") {
     $("body").css("background-color", "black")
         .css("color", "white");
 }
