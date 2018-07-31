@@ -9,6 +9,12 @@ $('#home-tab').on('click', function () {
 });
 
 $('#resume-tab').on('click', function () {
+    var offset = 0;
+
+    $('html, body').animate({
+        scrollTop: $("body").offset().top + offset
+    });
+
     $(this).attr('class', 'nav-link active');
     $('#resume').attr('class', 'tab-pane fade show active');
 
@@ -27,4 +33,3 @@ $('#portfolio-tab').on('click', function () {
     $('#resume-tab').attr('class', 'nav-link');
     $('#resume').attr('class', 'tab-pane fade');
 });
-
