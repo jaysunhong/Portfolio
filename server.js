@@ -11,10 +11,11 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 // parse application/json
 app.use(bodyParser.json());
-// server listener
+
 app.listen(PORT, function() {
   console.log(
-    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT
+    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+    PORT
   );
 });
 

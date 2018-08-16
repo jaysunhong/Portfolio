@@ -1,69 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-.colorDarkGray {
-    color: #424242;
-}
-.colorWhite {
-    background-color: white;
-}
-#preloader {
-    position: fixed;
-    bottom: 50%;
-    left: 48%;
-}
 body {
     font-family: "Bebas Neue", "Oswald";
     font-size: 16px;
-    position: relative;
-    top: 65px;
-    color: #424242;
 }
-
-/* NAVBAR */
-#navbar {
-    position: fixed;
-    top: 0;
-    height: 9.4%;
-    z-index: 1;
-}
-.brand-logo {
-    position: relative;
-    top: 10%;
-    height: 50px;
-    width: 80px;
-}
-.contactIcons {
-    position: relative;
-    left: 44.5%;
-    margin-top: 9px;
-    padding: 0;
-    font-size:220%; 
-    color: black;
-}
-#mailIcon {
-    position: relative;
-    top: 5px;
-}
-.navFont {
-    font-size: 16px;
-}
-
 h1 {
+    text-align: center;
     margin: 0;
-    font-size: 40px;
+    margin-top: 4px;
+    margin-left: 14px;
+    font-size: 31px;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 24px;
+    border-bottom: solid;
+    border-width: thin;
 }
 #profpic {
     width: 260px;
     height: 340px;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 10px;
     border-radius: 8%;
-    display: inline-block;
+    display: block;
 }
 .centerText {
     text-align: center;
     font-size: 25px;
     font-family: "Megan June";
+}
+#home {
+    margin-top: 50px;
+}
+#portfolio {
+    margin-top: 50px;
+    text-align: center;
+}
+#resume {
+    margin-top: 50px;
 }
 .fixdate {
     text-align: right;
@@ -85,26 +63,19 @@ h1 {
     font-size: 17px;
 }
 section {
-    margin-bottom: 200px;
+    margin-bottom: 3px;
+}
+.contactIcons {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+}
+.contactCol {
+    margin-top: 10px;
+    text-align: center;
 }
 
-/* PROJECTS */
-.cardHyperlinks {
-    cursor: pointer;
-}
-#hyperlinks {
-    color: #0000EE;
-    text-align: center;
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-#hyperlinks:visited {
-    color: #551A8B;
-}
-#imgRentployment {
-    margin-bottom: 18px;
-}
+/* PORTFOLIO TAB */
 .portfolioButtons {
     width: 160px;
     height: 160px;
@@ -126,43 +97,4 @@ section {
 }
 #giphylogo {
     border-radius: 5%;
-}
-
-/* SKILLS */
-.skillsIcon {
-    font-size:40px; 
-    display: block; 
-    text-align:center;
-    padding: 0;
-    position: relative;
-    color: black;
-}
-.skillIconsLabel {
-    font-family: "Bebas Neue", "Oswald";
-    font-size:12px; 
-    display:block; 
-    text-align:center;
-}
-.skillsIconFix {
-    padding: 0;
-    margin:0;
-    width:50%; 
-    height:50%;
-    position: relative;
-    bottom: 2px;
-}
-.skillsIconFontFix {
-    margin-top: -7px;
-}
-#materializeLogo {
-    margin-top: -7px;
-}
-#jqueryLogo {
-    margin-top: -7px;
-}
-#bootstrapLogoImage {
-    background-color: black;
-}
-#bootstrapLogo {
-    margin-top: -6.5px;
 }
